@@ -1,0 +1,22 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "commands": [
+        {
+          "id": 1,
+          "validated": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "commands": [
+        {
+          "id": 2,
+          "validated": true
+        }
+      ]
+    }
+  ]
+}

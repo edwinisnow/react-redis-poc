@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
+    "serve-json": "json-server --watch db.json",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
@@ -13,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -42,6 +44,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.1.0",
     "husky": "4",
+    "json-server": "^0.17.3",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "react-refresh": "^0.9.0",
