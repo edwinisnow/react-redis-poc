@@ -5,7 +5,13 @@
       "commands": [
         {
           "id": 1,
+          "name": "T1_CMD1",
           "validated": false
+        },
+        {
+          "id": 2,
+          "name": "T1_CMD2",
+          "validated": true
         }
       ]
     },
@@ -13,7 +19,38 @@
       "id": 2,
       "commands": [
         {
+          "id": 1,
+          "name": "T2_CMD1",
+          "validated": true
+        },
+        {
           "id": 2,
+          "name": "T2_CMD2",
+          "validated": true
+        },
+        {
+          "id": 3,
+          "name": "T2_CMD3",
+          "validated": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "commands": [
+        {
+          "id": 1,
+          "name": "T3_CMD1",
+          "validated": true
+        },
+        {
+          "id": 2,
+          "name": "T3_CMD2",
+          "validated": true
+        },
+        {
+          "id": 3,
+          "name": "T3_CMD3",
           "validated": true
         }
       ]
